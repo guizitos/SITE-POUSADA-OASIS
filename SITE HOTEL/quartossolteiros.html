@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quartos Solteiros - Pousada Oasis</title>
+    <link rel="icon" href="img/Logo.png">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo_quartos.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <nav class="navbar navbar-expand-lg border-bottom border-body navbarBg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="logo" class="imgLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active aNav" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle aNav" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pousada Oasis 
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+                                <li><a class="dropdown-item" href="cadastro.html">Cadastro Cliente</a></li>
+                                <li><a class="dropdown-item" href="Entrar.html">Entrar</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="user-info" class="d-none">
+                        <img id="user-photo" src="" alt="Perfil" class="rounded-circle" style="width: 40px; height: 40px;">
+                        <span id="user-name"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5 main-content">
+        <h2 class="text-center">Quartos Disponíveis</h2>
+        <div class="quarto-list">
+            <!-- Quarto Item 1 -->
+            <div class="quarto-item">
+                <img src="img/quarto-solteiro1.jpg" class="quarto-img-list" alt="Quarto Solteiro Luxo">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Luxo</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating">9.2 - Excelente (338 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 300,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-coffee"></i> Café da manhã incluído / 
+                        <i class="fas fa-swimming-pool"></i> Piscina / 
+                        <i class="fas fa-wifi"></i> Wi-Fi gratuito
+                    </p>
+                    <a href="#" class="btn btn-primary reservar-btn" data-status="disponivel">Reservar</a>
+                    <p class="quarto-status"><span class="badge bg-success">Disponível</span></p>
+                </div>
+            </div>
+
+            <!-- Quarto Item 2 -->
+            <div class="quarto-item">
+                <img src="img/quarto-solteiro2.jpg" class="quarto-img-list" alt="Quarto Solteiro Standard">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Standard</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★★☆☆</span>
+                        <span class="rating">7.8 - Bom (220 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 200,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-swimming-pool"></i> Piscina
+                    </p>
+                    <p class="quarto-status"><span class="badge bg-danger">Reservado</span></p>
+                </div>
+            </div>
+
+            <!-- Quarto Item 3 -->
+            <div class="quarto-item">
+                <img src="img/quarto-solteiro3.jpg" class="quarto-img-list" alt="Quarto Solteiro Econômico">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Econômico</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★☆☆☆</span>
+                        <span class="rating">6.5 - Regular (150 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 150,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-swimming-pool"></i> Piscina
+                    </p>
+                    <a href="#" class="btn btn-primary reservar-btn" data-status="disponivel">Reservar</a>
+                    <p class="quarto-status"><span class="badge bg-success">Disponível</span></p>
+                </div>
+            </div>
+
+            <!-- Quarto Item 4 -->
+            <div class="quarto-item">
+                <img src="img/quarto-premiun.jpg" class="quarto-img-list" alt="Quarto Solteiro Premium">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Oasis Premium</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating">9.8 - Excepcional (452 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 400,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-coffee"></i> Café da manhã incluído / 
+                        <i class="fas fa-swimming-pool"></i> Piscina / 
+                        <i class="fas fa-wifi"></i> Wi-Fi gratuito
+                    </p>
+                    <a href="#" class="btn btn-primary reservar-btn" data-status="disponivel">Reservar</a>
+                    <p class="quarto-status"><span class="badge bg-success">Disponível</span></p>
+                </div>
+            </div>
+
+            <!-- Quarto Item 5 -->
+            <div class="quarto-item">
+                <img src="img/quarto-executivo.jpg" class="quarto-img-list" alt="Quarto Solteiro Executivo">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Oasis Executivo</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating">8.7 - Muito Bom (317 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 250,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-coffee"></i> Café da manhã incluído / 
+                        <i class="fas fa-swimming-pool"></i> Piscina / 
+                        <i class="fas fa-wifi"></i> Wi-Fi gratuito
+                    </p>
+                    <a href="#" class="btn btn-primary reservar-btn" data-status="disponivel">Reservar</a>
+                    <p class="quarto-status"><span class="badge bg-success">Disponível</span></p>
+                </div>
+            </div>
+
+            <!-- Quarto Item 6 -->
+            <div class="quarto-item">
+                <img src="img/quarto-basico.jpg" class="quarto-img-list" alt="Quarto Solteiro Básico">
+                <div class="quarto-info-list">
+                    <h5 class="quarto-title">Quarto Solteiro Oasis Básico</h5>
+                    <div class="quarto-rating">
+                        <span class="stars">★★☆☆☆</span>
+                        <span class="rating">6.8 - Regular (132 avaliações)</span>
+                    </div>
+                    <p class="quarto-price">R$ 120,00 / noite</p>
+                    <p class="quarto-price">
+                        <i class="fas fa-swimming-pool"></i> Piscina
+                    </p>
+                    <a href="#" class="btn btn-primary reservar-btn" data-status="disponivel">Reservar</a>
+                    <p class="quarto-status"><span class="badge bg-success">Disponível</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-5">
+        <div class="text-center py-3">
+            <p>&copy; 2024 Pousada Oasis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script1.js" defer></script>
+</body>
+
+</html>

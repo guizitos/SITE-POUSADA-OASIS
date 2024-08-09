@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pousada Oasis</title>
+  <link rel="icon" href="img/Logo.png">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+  <header class="fixed-header">
+    <nav class="navbar navbar-expand-lg border-bottom border-body navbarBg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="logo" class="imgLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active aNav" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle aNav" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pousada Oasis 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="mapa.html">Mapa</a></li>
+                <li><a class="dropdown-item" href="cadastro.html">Cadastro Cliente</a></li>
+                <li><a class="dropdown-item" href="Entrar.html">Entrar</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+          </ul>
+          <div id="user-info" class="d-none">
+            <img id="user-photo" src="" alt="Perfil" class="rounded-circle" style="width: 40px; height: 40px;">
+            <span id="user-name"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-5 main-content">
+    <div class="carrosselContent">
+      <div class="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/entrada.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Bem-vindo à Pousada Oasis</h2>
+                <p>Seu refúgio de tranquilidade e conforto</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/piscinapublica.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Relaxe e aproveite a natureza</h2>
+                <p>Encontre paz e serenidade em cada canto</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/areabar.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Desfrute de momentos incríveis</h2>
+                <p>Nosso bar oferece o ambiente perfeito para relaxar</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/areapiscina.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Refresque-se e revitalize-se</h2>
+                <p>Desfrute de nossa piscina em um ambiente paradisíaco</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/areabar2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Uma experiência única</h2>
+                <p>Sinta-se à vontade para relaxar e aproveitar</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/piscinapriv.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h2>Privacidade e conforto</h2>
+                <p>Desfrute de uma piscina privada só para você</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="categorias">
+      <div class="categoriasContent">
+        <div class="card text-bg-dark categoria">
+          <img src="img/quarto-casal1.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay cardsCategorias">
+            <h5 class="card-title">Quartos para Casal</h5>
+            <p class="card-text">Desfrute de um ambiente romântico e confortável, ideal para relaxar e aproveitar momentos especiais.</p>
+            <a href="quartoscasais.html">
+              <p class="card-text"><small>| Ver mais |</small></p>
+            </a>
+          </div>
+        </div>
+        <div class="card text-bg-dark categoria">
+          <img src="img/quarto-solteiro1.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay cardsCategorias">
+            <h5 class="card-title">Quartos para Solteiro</h5>
+            <p class="card-text">Perfeito para uma estadia relaxante e privada, com todo o conforto necessário para uma ótima experiência.</p>
+            <a href="quartossolteiros.html">
+              <p class="card-text"><small>| Ver mais |</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="direitos">&copy; 2024 PousadaOasis. Todos os direitos reservados.</div>
+    <div class="contatos">
+      <a href="#" class="p"><b>Instagram: </b>@ParaisoOasis</a>
+      <div class="p"><b>E-mail: </b>PousadaOasis@gmail.com</div>
+      <div class="p"><b>Whatsapp: </b>89 998789600</div>
+      <div class="p"><b>Proprietários: </b>Guilherme Santo e Pedro Henrique</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script1.js" defer></script>
+</body>
+
+</html>
